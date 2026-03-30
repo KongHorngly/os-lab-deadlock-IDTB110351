@@ -27,7 +27,4 @@ The timeout mechanism prevents indefinite blocking by allowing a process to wait
 level 7;
 
 ![alt text](/Pic/level7.png)
-“The teardown process ensures that all mounted virtual drives are safely unmounted and detached from loop devices. This prevents data corruption and avoids leaving orphaned devices in the system, ensuring stability.”
-=======
-This picture is showing deadlock scenario with multiple processes and resource locks in a operating system context
->>>>>>> 90300fe1d6b9ab2490621ff3ec2807fa0449b341
+The teardown process ensures that all mounted virtual drives are safely unmounted and detached from loop devices. This prevents data corruption and avoids leaving orphaned devices in the system, ensuring stability.
